@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E900DAF6"
+    android:padding="16dp">
+
+    <!-- Product Item 1 -->
+    <TextView
+        android:id="@id/quantityTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_marginLeft="30dp"
+        android:text="OUR PRODUCTS "
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Product Image -->
+
+        <!-- Product Name -->
+        <ImageView
+            android:id="@+id/produ"
+            android:layout_width="74dp"
+            android:layout_height="64dp"
+            android:src="@drawable/hey" />
+
+        <!-- Minus Button -->
+        <TextView
+            android:id="@+id/productNameTextView1"
+            android:layout_width="152dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="Headphone" />
+
+        <Button
+            android:id="@+id/minusButton1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="-"
+            />
+
+        <!-- Quantity -->
+        <TextView
+            android:id="@id/quantityTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:layout_margin="4dp"
+            />
+
+        <!-- Plus Button -->
+        <Button
+            android:id="@id/plusButton2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="+"
+            />
+
+    </LinearLayout>
+
+    <!-- Product Item 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Product Image -->
+        <!-- Product Name -->
+
+        <ImageView
+            android:id="@id/productImage3"
+            android:layout_width="75dp"
+            android:layout_height="62dp"
+            android:src="@drawable/hey2"/>
+
+        <TextView
+            android:id="@id/productNameTextView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Earbuds"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            />
+
+        <!-- Minus Button -->
+        <Button
+            android:id="@id/minusButton2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="-"
+            />
+
+        <!-- Quantity -->
+        <TextView
+            android:id="@id/quantityTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_margin="4dp"
+            />
+
+        <!-- Plus Button -->
+        <Button
+            android:id="@id/plusButton2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:textColor="@color/white"
+            android:text="+"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/productImage3"
+            android:layout_width="72dp"
+            android:layout_height="63dp"
+            android:src="@drawable/hey" />
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/productNameTextView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Earbuds new pro"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            />
+
+        <!-- Minus Button -->
+        <Button
+            android:id="@+id/minusButton3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="-"
+            />
+
+        <!-- Quantity -->
+        <TextView
+            android:id="@+id/quantityTextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  android:layout_margin="4dp"
+            android:text="0"
+            />
+
+        <!-- Plus Button -->
+        <Button
+            android:id="@+id/plusButton3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="+"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/productImage4"
+            android:layout_width="72dp"
+            android:layout_height="65dp"
+            android:src="@drawable/hey2" />
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/productNameTextView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="wireless Headphones"
+            android:layout_weight="1"
+            />
+
+        <!-- Minus Button -->
+        <Button
+            android:id="@+id/minusButton4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="-"
+            />
+
+        <!-- Quantity -->
+        <TextView
+            android:id="@+id/quantityTextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="0"
+            />
+
+        <!-- Plus Button -->
+        <Button
+            android:id="@+id/plusButton5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="+"
+            />
+
+    </LinearLayout>   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Product Image -->
+    <ImageView
+        android:id="@+id/productImage6"
+        android:layout_width="78dp"
+        android:layout_height="77dp"
+        android:src="@drawable/hey" />
+
+    <!-- Product Name -->
+    <TextView
+        android:id="@+id/productNameTextView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Headphone version 2"
+        android:layout_weight="1"
+        />
+
+    <!-- Minus Button -->
+    <Button
+        android:id="@+id/minusButton6"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+
+        android:textColor="#ffffff"
+        />
+
+    <!-- Quantity -->
+    <TextView
+        android:id="@+id/quantityTextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_margin="4dp"
+        />
+
+    <!-- Plus Button -->
+    <Button
+        android:id="@+id/plusButton7"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="+"
+        />
+
+</LinearLayout>   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Product Image -->
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="80dp"
+        android:layout_height="74dp"
+        android:src="@drawable/hey2" />
+
+    <!-- Product Name -->
+    <TextView
+        android:id="@+id/productNameTextView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Earbuds Pro"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        />
+
+    <!-- Minus Button -->
+    <Button
+        android:id="@+id/minusButton2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="-"
+        />
+
+    <!-- Quantity -->
+    <TextView
+        android:id="@+id/quantityTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:layout_margin="4dp"
+        />
+
+    <!-- Plus Button -->
+    <Button
+        android:id="@+id/plusButton2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="+"
+        />
+
+</LinearLayout>
+    <Button
+        android:id="@+id/h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkout"
+        />
+</LinearLayout>

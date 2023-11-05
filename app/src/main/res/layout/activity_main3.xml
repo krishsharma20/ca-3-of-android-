@@ -1,0 +1,105 @@
+<!-- payment_activity_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/Playment_Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Details"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"/>
+    <TextView
+        android:id="@+id/productName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product 1: $55.00"
+        android:textFontWeight="@integer/material_motion_duration_medium_2"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/productName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product 2: $34.00"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/productName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product 3: $11.00"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/productName4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product 4: $10.00"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Payment Options -->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/creditCardRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Card"
+            android:checked="true"
+            android:layout_marginBottom="4dp"/>
+
+        <RadioButton
+            android:id="@+id/upiRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPI"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"/>
+
+        <RadioButton
+            android:id="@+id/netBankingRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Net Banking"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"/>
+
+        <RadioButton
+            android:id="@+id/debitCardRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Debit Card"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp"/>
+    </RadioGroup>
+
+    <!-- Total Amount -->
+    <TextView
+        android:id="@+id/totalAmountTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Amount: $110.00"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Payment Button -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Now"
+        android:id="@+id/payNowButton"
+        android:layout_gravity="center"/>
+</LinearLayout>
